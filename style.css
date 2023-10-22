@@ -52,19 +52,40 @@ body{
 
 }
 .numbers{
-    position: absolute;
+    position: relative;
     width: 100%;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.number{
-    position: absolute;
     font-size: 20px;
-    transform-origin: bottom;
-    transform: translate();
+    
 }
+
+.number1{
+    position: absolute;
+    top: 0px;
+    left: 59%;
+}
+ 
+.number2{
+    position: absolute;
+    top: 32px;
+    left: 82%;  
+}
+.number3{
+    position: absolute;
+    top: 82px;
+    left: 94%;
+}
+
+.number4{
+    position: absolute;
+    top: 130px;
+    left: 88%;
+}
+.number5{
+    position: absolute;
+    top: 168px;
+    left: 71%;
+}
+ 
 /* @keyframes rotate{
     from{
         transform: rotate(0deg);
@@ -72,4 +93,4 @@ body{
      to{
         transform: rotate(360deg);
      }
-} */
+}  */
