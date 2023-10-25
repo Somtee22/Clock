@@ -1,13 +1,14 @@
 body{
     margin: 0;
     background-color: #f0f0f0;
+    height: 100%;
 
 }
 
 .clock{
     width: 200px;
     height: 200px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 40%;
     border: 4px solid blue;
     border-radius: 50%;
@@ -25,16 +26,16 @@ body{
 .hour-hand{
     height: 50px;
     width: 6px;
-    background-color: #000;
+    background-color: black;
     top: 50px;
-    left: 98px;
-    animation: rotate 7200s linear infinite;
+    left: 99px;
+    animation: rotate 86200s linear infinite;
 }
 
 .minute-hand{
     height: 80px;
     width: 4px;
-    background-color: #000;
+    background-color: black;
     top: 20px;
     left: 99px;
     animation: rotate 3600s linear infinite;
@@ -44,7 +45,7 @@ body{
 .second-hand{
     height: 100px;
     width: 2px;
-    background-color: #000;
+    background-color: black;
     top: 0;
     left: 100px;
     animation: rotate 60s linear infinite;
@@ -60,8 +61,8 @@ body{
 
 .number1{
     position: absolute;
-    top: 4px;
-    left: 68%;
+    top: 5px;
+    left: 69%;
 }
  
 .number2{
@@ -129,3 +130,61 @@ body{
         transform: rotate(360deg);
      }
 } 
+
+
+.olympic-logo{
+    margin-top: 150px;
+    margin-left: 40%;
+    position: relative;    
+}
+
+.ring{
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    width: 400px;
+    height: 150px;
+    background-color: bisque;
+}
+
+.blue{
+    height: 60px;
+    width: 60px;
+    border: 8px solid blue;
+    border-radius: 50% ;
+    z-index: 1;
+}
+.yellow{
+    height: 60px;
+    width: 60px;
+    border: 8px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    right: 287px;
+  
+   
+}
+.black{
+    height: 60px;
+    width: 60px;
+    border: 8px solid black;
+    border-radius: 50% ;
+}
+
+.red{
+    height: 60px;
+    width: 60px;
+    border: 8px solid red;
+    border-radius: 50%;
+    z-index: 1;
+}
+.green{
+    height: 60px;
+    width: 60px;
+    border: 8px solid green;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    right: 209px;
+}
